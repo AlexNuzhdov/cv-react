@@ -17,7 +17,7 @@ export const Contact = () => {
 
   return (
     <>
-    <button className='goback' onClick={ cameBack }>Go back</button>
+    <button className='goback' onClick={ cameBack }>Go back\</button>
     <section className='contactSection'>
       <div className='contactContainer'>
         <h1 className='contactTitle'>Contact <span className='contact-item'>Me</span></h1>
