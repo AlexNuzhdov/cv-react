@@ -1,0 +1,24 @@
+.footer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+   
+    border-top: 1px solid #0ef;
+}
+.footerSection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(226, 226, 226);
+}
+.inner{
+   color: #0ef;
+}
+.year{
+    color: rgb(226, 226, 226);
+}

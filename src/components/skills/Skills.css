@@ -1,0 +1,218 @@
+.technical-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    counter-reset: li;
+    margin-top: 0;
+    margin-bottom: 45px;
+   
+  
+}
+.technical-wrap {
+    width: 100%;
+   
+}
+.technical-title{
+    display: flex;
+    color: rgb(226, 226, 226);
+}
+.technical-items{
+    color: rgb(226, 226, 226);
+}
+.education-title {
+    color: rgb(226, 226, 226);
+    margin-top: 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.technical-title {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: var(--main-second-color);
+    justify-content: center;
+}
+.technical-title{
+    
+    animation: slideUp 1s forwards;
+    transform: translateY(150%);
+  }
+ 
+ @keyframes slideUp {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+}
+
+
+.technical-items {
+    font-family: 'LobsterRegular', sans-serif;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+   
+    position: relative;
+    margin-bottom: 1.5em;
+    font-size: 24px;
+    border: 3px solid #0ef;
+    padding: 0.7em;
+   background-color: rgb(56, 56, 56);
+
+}
+.education-subtitle{
+    color: rgb(226, 226, 226);
+}
+
+.technical-section {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 10%;
+    background-color: var(--main-background-color);
+}
+.languages-list {
+    background-color: var( --second-background-color);
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 40px 0px 0px;
+    box-shadow:  #0ef 1px 1px 20px, rgb(85, 85, 85) 1px 1px 40px;
+}
+
+
+.radial-bars{
+    cursor: pointer;
+    display: flex;
+   
+    justify-content: flex-start;
+    height: 268px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+.circle1{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 200;
+    stroke-dashoffset: -30;
+    stroke-linecap: round;
+}
+.circle2{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 375;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+}
+.circle3{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 375;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+}
+.text{
+    font-size: 20px; 
+    fill: white; 
+    text-transform: uppercase;
+}
+.text2{
+    font-size: 12px; 
+    fill: white; 
+    text-transform: uppercase;
+}
+.Education-section{
+    width: 100%;
+    
+    padding: 40px 5px 10%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-background-color);
+    align-items: center;
+    height: fit-content;
+    @media (max-width: 768px) {
+      padding-top: 80px;
+    }
+    @media (max-width: 480px) {
+      padding-top: 40px;
+    }
+  
+}
+.Education-container{
+    
+    width: 100%;
+    background-color: var( --second-background-color);
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13;
+    border-radius: 20px;
+    transition: background-color 0.5s ease 0s, transform 0.5s ease 0s;
+    box-shadow: #0ef 1px 1px 20px, rgb(85, 85, 85) 1px 1px 40px;
+}
+
+
+
+
+.Education-container:hover {
+    transform: translateY(-15px);
+}
+ 
+    
+.Education-list{
+    width: 100%;
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+@media (max-width: 768px) {
+
+    .Education-list {
+        width: 100%;
+        cursor: auto;
+        align-items: center;
+        gap: 3rem;
+        padding: 16px 10% 0px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100svh;
+        background-color: var(--main-background-color);
+        margin: 0;
+    }
+   
+  }
+
+.education-wrap-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.education-title{
+  background-color: var(--main-background-color);
+  margin: 0;
+  color: var(--main-second-color);
+}

@@ -1,0 +1,26 @@
+.goBack {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: max-content;
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    border: 0px solid rgba(0,0,0,0.3);
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 25px #0ef;
+    cursor: pointer;
+    &:hover {
+      box-shadow:
+        0 0 5px #0ef,
+        0 0 25px #0ef,
+        0 0 50px #0ef,
+        0 0 100px #0ef,
+        0 0 200px #0ef;
+    }
+}
